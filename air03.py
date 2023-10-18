@@ -13,7 +13,6 @@ def arg_tester():
 
 def intruder_finder(array):
     length = len(array)
-    doublon = False
 
     for i in range(0, length):
         doublon = False
