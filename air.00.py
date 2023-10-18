@@ -8,7 +8,7 @@ def arg_tester():
         print("erreur d'argument")
         exit()
         
-    return "".join(args)
+    return args[0]
 
 
 def split(array):
