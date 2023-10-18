@@ -11,16 +11,10 @@ def arg_tester():
 
 
 def split_by(string_to_cut, separator):
-    # print(f"string_to_cut: {string_to_cut}")
-    # print(f"separator: {separator}")
-
-    words = []
-
-    for word in string_to_cut:
-        if word != separator:
-            words.append(word)
-
+    
+    words = [word for word in string_to_cut if word != separator]
     return words
+
 
 
 def main():
